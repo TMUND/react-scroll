@@ -1,4 +1,4 @@
-var assign = require('object-assign');
+var assign = Object.assign;
 
 var smooth = require('./smooth');
 

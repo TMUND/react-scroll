@@ -1,4 +1,4 @@
-var assign = require('object-assign');
+var assign = Object.assign;
 
 var animateScroll = require('./animate-scroll');
 var events = require('./scroll-events');
